@@ -1,0 +1,19 @@
+CASE 24: CUSTOMER SUPPORT MANAGEMENT SYSTEM (Салмақты колл-центр)
+
+ДҚБЖ: PostgreSQL[cite: 1]  
+Бағыты:Техникалық қолдау және Ticket басқару жүйесі (Салмақты колл-центр)[cite: 6]
+
+Онлайн SQL орындау сілтемесі (db<>fiddle)
+https://dbfiddle.uk/n0MeIUEt
+
+Жоба сипаттамасы
+Бұл жоба салмақты колл-центрдің тикеттерді өңдеу, операторларға бекіту, SLA мерзімдерін бақылау, эскалация тарихын жүргізу және клиенттердің кері байланысын жинау бизнес-процестерін модельдейтін реляциялық деректер қорына арналған[cite: 6].
+
+Міндетті кестелер (15 кесте)
+`customers`, `companies`, `tickets`, `ticket_categories`, `priorities`, `agents`, `departments`, `ticket_assignments`, `ticket_messages`, `ticket_status_history`, `ticket_resolutions`, `feedback`, `service_level_agreements`, `working_hours`, `escalation_history`[cite: 6].
+
+Негізгі аналитикалық есептер
+* First Response Time (FRT)[cite: 6]
+* Орташа шешу уақыты[cite: 6]
+* SLA бұзылған тикеттер[cite: 6]
+* Операторлар рейтингі[cite: 6]
